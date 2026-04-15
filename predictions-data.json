@@ -6,7 +6,6 @@
       "league": "Bundesliga",
       "prediction": "2H Home Over 0.5 Goals",
       "probability": 69,
-      "odds": 1.85,
       "analysis": [
         "Heidenheim are bottom of the league table",
         "They concede mostly in 2H while M’Gladbach often score in 2H.",
@@ -16,19 +15,20 @@
       "score": "1-1 (2H: 2-2)"
     },
     {
-      "date": "2024-04-12",
-      "match": "Real Madrid vs Barcelona",
-      "league": "La Liga",
-      "prediction": "2H Over 1.5 Goals",
-      "probability": 71,
-      "odds": 1.90,
+      "date": "2024-04-04",
+      "match": "Leverkusen vs Wolfsburg",
+      "league": "Bundesliga",
+      "prediction": "2H Home Over 0.5 Goals",
+      "probability": 93,
       "analysis": [
-        "El Clasico: avg 2.3 2H goals last 5 meetings",
-        "Both teams push harder after halftime in big games",
-        "Tactical adjustments at HT typically create space"
+        "Wolfsburg are currently in the relegation zone",
+        "Leverkusen won the previous match 3-1",
+        "Leverkusen have scored at least once in each of their last 5 matches, though results include 4 draws and 1 win"
       ],
       "result": "win",
-      "score": "3-3 (2H: 2-2)"
+      "score": "2-3 (2H: 6-3)"
+
+
     }
   ]
 }
