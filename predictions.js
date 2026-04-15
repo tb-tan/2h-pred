@@ -27,13 +27,13 @@ function updateStats(predictions) {
     const winRate = completed.length > 0 ? (won.length / completed.length * 100).toFixed(1) : 0;
     document.getElementById('win-rate').textContent = winRate + '%';
     
-    // Calculate profit/loss (assuming 1 unit per bet, standard odds around 1.90)
+    // Calculate profit/loss (1 unit per bet won, -1 unit per bet lost)
     let profit = 0;
     completed.forEach(pred => {
         if (pred.result === 'win') {
-            profit += (pred.odds || 1.90) - 1; // Return minus stake
+            profit += 1; // +1 unit for win
         } else if (pred.result === 'loss') {
-            profit -= 1; // Lost stake
+            profit -= 1; // -1 unit for loss
         }
     });
     

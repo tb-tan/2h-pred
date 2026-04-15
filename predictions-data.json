@@ -1,35 +1,19 @@
 {
   "predictions": [
     {
-      "date": "2024-04-15",
-      "match": "Heidenheim vs M'Gladbach",
+      "date": "2024-04-04",
+      "match": "M'Gladbach vs Heidenheim",
       "league": "Bundesliga",
-      "prediction": "2H Over 1.5 Goals",
+      "prediction": "2H Home Over 0.5 Goals",
       "probability": 69,
       "odds": 1.85,
       "analysis": [
-        "Heidenheim concede 70% of their goals in 2H",
-        "M'Gladbach score 65% of goals in 2H this season",
-        "Previous H2H: 3-0 with 2 goals in second half",
-        "Heidenheim bottom of table, defensive fatigue pattern"
-      ],
-      "result": "pending",
-      "score": null
-    },
-    {
-      "date": "2024-04-13",
-      "match": "Bayern Munich vs Borussia Dortmund",
-      "league": "Bundesliga",
-      "prediction": "2H Over 1.5 Goals",
-      "probability": 73,
-      "odds": 1.80,
-      "analysis": [
-        "Both teams average 1.8 2H goals in recent matches",
-        "High-tempo first half expected to create 2H fatigue",
-        "Last 4 meetings: 3 had 2+ goals in 2H"
+        "Heidenheim are bottom of the league table",
+        "They concede mostly in 2H while M’Gladbach often score in 2H.",
+        "Their previous meeting ended 3-0 to M’Gladbach, with 2 goals coming in the second half"
       ],
       "result": "win",
-      "score": "3-2 (2H: 2-1)"
+      "score": "1-1 (2H: 2-2)"
     },
     {
       "date": "2024-04-12",
@@ -45,36 +29,6 @@
       ],
       "result": "win",
       "score": "3-3 (2H: 2-2)"
-    },
-    {
-      "date": "2024-04-10",
-      "match": "Liverpool vs Arsenal",
-      "league": "Premier League",
-      "prediction": "2H Over 1.5 Goals",
-      "probability": 67,
-      "odds": 1.88,
-      "analysis": [
-        "Arsenal concede 58% of goals in 2H",
-        "Liverpool's pressing intensity increases after 60'",
-        "Open game expected after cagey first half"
-      ],
-      "result": "loss",
-      "score": "1-1 (2H: 0-1)"
-    },
-    {
-      "date": "2024-04-08",
-      "match": "PSG vs Monaco",
-      "league": "Ligue 1",
-      "prediction": "2H Over 1.5 Goals",
-      "probability": 72,
-      "odds": 1.83,
-      "analysis": [
-        "PSG score 68% of goals in 2H at home",
-        "Monaco's counter-attacking threat increases with space",
-        "Both teams' 2H goal rate among top 3 in Ligue 1"
-      ],
-      "result": "win",
-      "score": "4-1 (2H: 3-0)"
     }
   ]
 }
