@@ -27,27 +27,14 @@ function updateStats(predictions) {
     const winRate = completed.length > 0 ? (won.length / completed.length * 100).toFixed(1) : 0;
     document.getElementById('win-rate').textContent = winRate + '%';
     
-    // Calculate profit/loss (1 unit per bet won, -1 unit per bet lost)
-    let profit = 0;
-    completed.forEach(pred => {
-        if (pred.result === 'win') {
-            profit += 1; // +1 unit for win
-        } else if (pred.result === 'loss') {
-            profit -= 1; // -1 unit for loss
-        }
-    });
+    // Calculate net correct (wins minus losses)
+    const netCorrect = won.length - (completed.length - won.length);
     
-    // ROI
-    const roi = completed.length > 0 ? (profit / completed.length * 100).toFixed(1) : 0;
-    const roiElement = document.getElementById('roi');
-    roiElement.textContent = roi + '%';
-    roiElement.className = 'stat-value ' + (roi < 0 ? 'negative' : '');
-    
-    // Profit/Loss
-    const profitElement = document.getElementById('profit');
-    const profitText = (profit >= 0 ? '+' : '') + profit.toFixed(1) + 'u';
-    profitElement.textContent = profitText;
-    profitElement.className = 'stat-value ' + (profit < 0 ? 'negative' : '');
+    // Net Correct
+    const netCorrectElement = document.getElementById('net-correct');
+    const netCorrectText = (netCorrect >= 0 ? '+' : '') + netCorrect;
+    netCorrectElement.textContent = netCorrectText;
+    netCorrectElement.className = 'stat-value ' + (netCorrect < 0 ? 'negative' : '');
 }
 
 // Display upcoming predictions (pending results)

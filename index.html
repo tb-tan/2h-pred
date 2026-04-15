@@ -351,12 +351,8 @@
             <div class="stat-label">Win Rate</div>
         </div>
         <div class="stat-card">
-            <div class="stat-value" id="roi">0%</div>
-            <div class="stat-label">ROI</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-value" id="profit">+0.0u</div>
-            <div class="stat-label">Profit/Loss</div>
+            <div class="stat-value" id="net-correct">+0</div>
+            <div class="stat-label">Net Correct</div>
         </div>
     </div>
 
@@ -372,9 +368,43 @@
         </div>
     </div>
 
+    <div class="container" style="margin-top: 4rem;">
+        <h2 class="section-header">About This Model</h2>
+        <div class="prediction-card">
+            <h3 style="font-family: 'Antonio', sans-serif; font-size: 1.2rem; margin-bottom: 1rem;">What is this?</h3>
+            <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 1rem;">
+                A data-driven model that predicts second-half (2H) goal outcomes. All predictions are posted <strong style="color: var(--accent-green);">live during half-time</strong> based on first-half data, team patterns, and statistical analysis.
+            </p>
+            
+            <h3 style="font-family: 'Antonio', sans-serif; font-size: 1.2rem; margin-bottom: 1rem; margin-top: 2rem;">What does "Net Correct" mean?</h3>
+            <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 1rem;">
+                <strong style="color: var(--text-primary);">Net Correct</strong> = Correct predictions minus incorrect predictions.
+            </p>
+            <ul class="analysis-points">
+                <li>10 correct, 4 incorrect = +6 net correct</li>
+                <li>15 correct, 15 incorrect = 0 net correct</li>
+                <li>8 correct, 12 incorrect = -4 net correct</li>
+            </ul>
+            <p style="color: var(--text-secondary); line-height: 1.8; margin-top: 1rem;">
+                A positive number means the model is performing well. Simple as that.
+            </p>
+            
+            <h3 style="font-family: 'Antonio', sans-serif; font-size: 1.2rem; margin-bottom: 1rem; margin-top: 2rem;">Full transparency</h3>
+            <p style="color: var(--text-secondary); line-height: 1.8;">
+                Every prediction is tracked publicly. Wins <strong>and</strong> losses. No cherry-picking. No hiding bad days. What you see is exactly what was posted.
+            </p>
+            
+            <div style="margin-top: 2rem; padding: 1rem; background: rgba(255, 187, 0, 0.1); border-left: 3px solid var(--accent-yellow); border-radius: 4px;">
+                <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">
+                    ℹ️ <strong style="color: var(--text-primary);">Disclaimer:</strong> This is a prediction model for informational and educational purposes. Past performance doesn't guarantee future results. Always do your own research.
+                </p>
+            </div>
+        </div>
+    </div>
+
     <div class="footer">
         <p>Track record updated in real-time • All predictions posted at half-time</p>
-        <p style="margin-top: 1rem;">Follow on <a href="https://twitter.com/footy_witch" target="_blank">Twitter/X</a> • Join <a href="https://t.me/yourchannel" target="_blank">Telegram</a></p>
+        <p style="margin-top: 1rem;">Follow on <a href="https://twitter.com/yourusername" target="_blank">Twitter/X</a> • Join <a href="https://t.me/yourchannel" target="_blank">Telegram</a></p>
     </div>
 
     <script src="predictions.js"></script>
