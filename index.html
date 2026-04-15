@@ -373,7 +373,17 @@
         <div class="prediction-card">
             <h3 style="font-family: 'Antonio', sans-serif; font-size: 1.2rem; margin-bottom: 1rem;">What is this?</h3>
             <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 1rem;">
-                A data-driven model that predicts second-half (2H) goal outcomes. All predictions are posted <strong style="color: var(--accent-green);">live during half-time</strong> based on first-half data, team patterns, and statistical analysis.
+                A data-driven model that predicts whether the <strong style="color: var(--accent-green);">home team will score in the second half</strong>. All predictions are posted <strong style="color: var(--accent-green);">live during half-time</strong> with a probability percentage based on first-half data and statistical analysis.
+            </p>
+            
+            <h3 style="font-family: 'Antonio', sans-serif; font-size: 1.2rem; margin-bottom: 1rem; margin-top: 2rem;">How to read probabilities</h3>
+            <ul class="analysis-points">
+                <li><strong>70%+</strong> = High confidence home team scores in 2H</li>
+                <li><strong>50-70%</strong> = Moderate confidence</li>
+                <li><strong>Below 50%</strong> = Home team unlikely to score in 2H</li>
+            </ul>
+            <p style="color: var(--text-secondary); line-height: 1.8; margin-top: 1rem;">
+                Example: 93% probability means the model is very confident the home team will score. 45% means it's unlikely.
             </p>
             
             <h3 style="font-family: 'Antonio', sans-serif; font-size: 1.2rem; margin-bottom: 1rem; margin-top: 2rem;">What does "Net Correct" mean?</h3>
@@ -404,7 +414,8 @@
 
     <div class="footer">
         <p>Track record updated in real-time • All predictions posted at half-time</p>
-        <p style="margin-top: 1rem;">Follow on <a href="https://twitter.com/yourusername" target="_blank">Twitter/X</a> • Join <a href="https://t.me/yourchannel" target="_blank">Telegram</a></p>
+        <p style="margin-top: 1rem;">Follow on <a href="https://x.com/footy_witch" target="_blank">Twitter/X</a> 
+            <!-- • Join <a href="https://t.me/yourchannel" target="_blank">Telegram</a></p> -->
     </div>
 
     <script src="predictions.js"></script>
