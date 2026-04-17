@@ -55,8 +55,8 @@
     "Inter scored first in last 8/8 H2H meetings",
     "Cagliari: 20-match no clean sheet vs Inter"
   ],
-  "result": "pending",
-  "score": "0-0 (HT)"
+  "result": "win",
+  "score": "0-0 (FT: 2-0)"
 },
 {
   "date": "2025-04-17",
@@ -70,8 +70,8 @@
     "Köln score heavily 75'-90'",
     "Model sees weak home goal signals"
   ],
-  "result": "pending",
-  "score": "0-0 (HT)"
+  "result": "loss",
+  "score": "0-0 (FT: 1-0)"
 },
 {
   "date": "2025-04-17",
@@ -83,8 +83,8 @@
     "Low confidence despite Toulouse red card",
     "Lens already trailing 0-2 at half-time",
     "Lens do score late (12 goals in 75'-90')"],
-  "result": "pending",
-  "score": "0-2 (HT)"
+  "result": "loss",
+  "score": "0-2 (FT: 2-2)"
 }
   ]
 }
