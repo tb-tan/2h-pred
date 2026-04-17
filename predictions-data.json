@@ -72,6 +72,19 @@
   ],
   "result": "pending",
   "score": "0-0 (HT)"
+},
+{
+  "date": "2025-04-17",
+  "match": "RC Lens vs Toulouse",
+  "league": "Ligue 1",
+  "prediction": "Home Team 2H Over 0.5 Goals",
+  "probability": 23,
+  "analysis": [
+    "Low confidence despite Toulouse red card",
+    "Lens already trailing 0-2 at half-time",
+    "Lens do score late (12 goals in 75'-90')"],
+  "result": "pending",
+  "score": "0-2 (HT)"
 }
   ]
 }
