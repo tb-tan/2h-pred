@@ -29,19 +29,19 @@
       "score": "2-3 (2H: 6-3)"
     },
     {
-    "date": "2025-04-17",
-    "match": "Sassuolo vs Como",
-    "league": "Serie A",
-    "prediction": "2H Home Over 0.5 Goals",
-    "probability": 90,
-    "analysis": [
-      "Sassuolo have scored 19 goals in 45'-90' period (peak window).",
-      "Como have conceded 12 goals in second half (defensive weakness).",
-      "Both teams strong Over 2.5 trends (8/10 and 4/5).",
-      "Currently 2-1, momentum and patterns align."
-    ],
-    "result": "pending",
-    "score": "2-1 (HT)"
+  "date": "2025-04-17",
+  "match": "Sassuolo vs Como",
+  "league": "Serie A",
+  "prediction": "2H Home Over 0.5 Goals",
+  "probability": 90,
+  "analysis": [
+    "Sassuolo score 19 goals in 45'-90' period (peak window)",
+    "Como concede 12 goals in second half (defensive weakness)",
+    "Both teams strong Over 2.5 trends (8/10 and 4/5)",
+    "Currently 2-1, momentum and patterns align"
+  ],
+  "result": "loss",
+  "score": "2-1 (FT: 2-1)"
   }
   ]
 }
