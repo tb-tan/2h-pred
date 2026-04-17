@@ -7,9 +7,9 @@
       "prediction": "2H Home Over 0.5 Goals",
       "probability": 69,
       "analysis": [
-        "Heidenheim are bottom of the league table",
+        "Heidenheim are bottom of the league table.",
         "They concede mostly in 2H while M’Gladbach often score in 2H.",
-        "Their previous meeting ended 3-0 to M’Gladbach, with 2 goals coming in the second half"
+        "Their previous meeting ended 3-0 to M’Gladbach, with 2 goals coming in the second half."
       ],
       "result": "win",
       "score": "1-1 (2H: 2-2)"
@@ -21,14 +21,27 @@
       "prediction": "2H Home Over 0.5 Goals",
       "probability": 93,
       "analysis": [
-        "Wolfsburg are currently in the relegation zone",
-        "Leverkusen won the previous match 3-1",
-        "Leverkusen have scored at least once in each of their last 5 matches, though results include 4 draws and 1 win"
+        "Wolfsburg are currently in the relegation zone.",
+        "Leverkusen won the previous match 3-1.",
+        "Leverkusen have scored at least once in each of their last 5 matches, though results include 4 draws and 1 win."
       ],
       "result": "win",
       "score": "2-3 (2H: 6-3)"
-
-
-    }
+    },
+    {
+    "date": "2025-04-17",
+    "match": "Sassuolo vs Como",
+    "league": "Serie A",
+    "prediction": "2H Home Over 0.5 Goals",
+    "probability": 90,
+    "analysis": [
+      "Sassuolo score 19 goals in 45'-90' period (peak window)",
+      "Como concede 12 goals in second half (defensive weakness)",
+      "Both teams strong Over 2.5 trends (8/10 and 4/5)",
+      "Currently 2-1, momentum and patterns align"
+    ],
+    "result": "pending",
+    "score": "2-1 (HT)"
+  }
   ]
 }
