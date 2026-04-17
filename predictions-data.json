@@ -7,9 +7,9 @@
       "prediction": "2H Home Over 0.5 Goals",
       "probability": 69,
       "analysis": [
-        "Heidenheim are bottom of the league table.",
-        "They concede mostly in 2H while M’Gladbach often score in 2H.",
-        "Their previous meeting ended 3-0 to M’Gladbach, with 2 goals coming in the second half."
+        "Heidenheim are bottom of the league table",
+        "They concede mostly in 2H while M’Gladbach often score in 2H",
+        "Their previous meeting ended 3-0 to M’Gladbach, with 2 goals coming in the second half"
       ],
       "result": "win",
       "score": "1-1 (2H: 2-2)"
@@ -21,9 +21,9 @@
       "prediction": "2H Home Over 0.5 Goals",
       "probability": 93,
       "analysis": [
-        "Wolfsburg are currently in the relegation zone.",
-        "Leverkusen won the previous match 3-1.",
-        "Leverkusen have scored at least once in each of their last 5 matches, though results include 4 draws and 1 win."
+        "Wolfsburg are currently in the relegation zone",
+        "Leverkusen won the previous match 3-1",
+        "Leverkusen have scored at least once in each of their last 5 matches, though results include 4 draws and 1 win"
       ],
       "result": "win",
       "score": "2-3 (2H: 6-3)"
@@ -42,6 +42,36 @@
   ],
   "result": "loss",
   "score": "2-1 (FT: 2-1)"
-  }
+  },
+  {
+  "date": "2025-04-17",
+  "match": "Inter vs Cagliari",
+  "league": "Serie A",
+  "prediction": "Home Team 2H Over 0.5 Goals",
+  "probability": 67,
+  "analysis": [
+    "Inter score heavily 75'-90'",
+    "Cagliari concede most 75'-90'",
+    "Inter scored first in last 8/8 H2H meetings",
+    "Cagliari: 20-match no clean sheet vs Inter"
+  ],
+  "result": "pending",
+  "score": "0-0 (HT)"
+},
+{
+  "date": "2025-04-17",
+  "match": "St. Pauli vs FC Köln",
+  "league": "Bundesliga 2",
+  "prediction": "Home Team 2H Over 0.5 Goals",
+  "probability": 13,
+  "analysis": [
+    "St. Pauli: 5-match winless streak",
+    "St. Pauli weakest scoring period all season",
+    "Köln score heavily 75'-90'",
+    "Model sees weak home goal signals"
+  ],
+  "result": "pending",
+  "score": "0-0 (HT)"
+}
   ]
 }
