@@ -79,12 +79,30 @@ function createPredictionCard(pred) {
         const htScore = pred.score ? `<div class="score-display">HT: ${pred.score}</div>` : '';
         resultBadge = `<span class="result-badge pending">⏳ Pending</span>${htScore}`;
     } else if (pred.result === 'win') {
-        // For completed matches, show Final score with HT
-        const scoreDisplay = pred.score ? `<div class="score-display">Final: ${pred.score}</div>` : '';
+        // For completed matches, format the score properly
+        let scoreDisplay = '';
+        if (pred.score) {
+            // If score already has (HT: or (FT: format, show as-is with Final: prefix
+            if (pred.score.includes('(HT:') || pred.score.includes('(FT:')) {
+                scoreDisplay = `<div class="score-display">Final: ${pred.score.replace('(FT:', '(HT:')}</div>`;
+            } else {
+                // Otherwise just show the score
+                scoreDisplay = `<div class="score-display">Final: ${pred.score}</div>`;
+            }
+        }
         resultBadge = `<span class="result-badge win">✓ Won</span>${scoreDisplay}`;
     } else {
-        // For losses, show Final score with HT
-        const scoreDisplay = pred.score ? `<div class="score-display">Final: ${pred.score}</div>` : '';
+        // For losses, format the score properly
+        let scoreDisplay = '';
+        if (pred.score) {
+            // If score already has (HT: or (FT: format, show as-is with Final: prefix
+            if (pred.score.includes('(HT:') || pred.score.includes('(FT:')) {
+                scoreDisplay = `<div class="score-display">Final: ${pred.score.replace('(FT:', '(HT:')}</div>`;
+            } else {
+                // Otherwise just show the score
+                scoreDisplay = `<div class="score-display">Final: ${pred.score}</div>`;
+            }
+        }
         resultBadge = `<span class="result-badge loss">✗ Lost</span>${scoreDisplay}`;
     }
     
