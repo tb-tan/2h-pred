@@ -47,7 +47,7 @@
   "date": "2025-04-17",
   "match": "Inter vs Cagliari",
   "league": "Serie A",
-  "prediction": "Home Team 2H Over 0.5 Goals",
+  "prediction": "2H Home Over 0.5 Goals",
   "probability": 67,
   "analysis": [
     "Inter score heavily 75'-90'",
@@ -62,7 +62,7 @@
   "date": "2025-04-17",
   "match": "St. Pauli vs FC Köln",
   "league": "Bundesliga",
-  "prediction": "Home Team 2H Over 0.5 Goals",
+  "prediction": "2H Home Over 0.5 Goals",
   "probability": 13,
   "analysis": [
     "St. Pauli: 5-match winless streak",
@@ -77,7 +77,7 @@
   "date": "2025-04-17",
   "match": "RC Lens vs Toulouse",
   "league": "Ligue 1",
-  "prediction": "Home Team 2H Over 0.5 Goals",
+  "prediction": "2H Home Over 0.5 Goals",
   "probability": 23,
   "analysis": [
     "Low confidence despite Toulouse red card",
@@ -90,7 +90,7 @@
   "date": "2025-04-21",
   "match": "Athletic Club vs Osasuna",
   "league": "LaLiga",
-  "prediction": "Home Team 2H Over 0.5 Goals",
+  "prediction": "2H Home Over 0.5 Goals",
   "probability": 87,
   "result": "loss",
   "score": "1-0 (FT: 1-0)"
@@ -99,7 +99,7 @@
   "date": "2025-04-21",
   "match": "Mallorca vs Valencia",
   "league": "LaLiga",
-  "prediction": "Home Team 2H Over 0.5 Goals",
+  "prediction": "2H Home Over 0.5 Goals",
   "probability": 34,
   "threshold": 41,
   "result": "loss",
@@ -109,7 +109,7 @@
   "date": "2025-04-21",
   "match": "Brighton vs Chelsea",
   "league": "Premier League",
-  "prediction": "Home Team 2H Over 0.5 Goals",
+  "prediction": "2H Home Over 0.5 Goals",
   "probability": 88,
   "result": "win",
   "score": "1-0 (FT: 3-0)"
@@ -118,7 +118,7 @@
   "date": "2025-04-21",
   "match": "Real Madrid vs Alaves",
   "league": "LaLiga",
-  "prediction": "Home Team 2H Over 0.5 Goals",
+  "prediction": "2H Home Over 0.5 Goals",
   "probability": 74,
   "result": "win",
   "score": "1-0 (FT: 2-1)"
@@ -127,7 +127,7 @@
   "date": "2025-04-21",
   "match": "Girona vs Betis",
   "league": "LaLiga",
-  "prediction": "Home Team 2H Over 0.5 Goals",
+  "prediction": "2H Home Over 0.5 Goals",
   "probability": 89,
   "result": "win",
   "score": "1-1 (FT: 2-3)"
@@ -136,7 +136,7 @@
   "date": "2025-04-22",
   "match": "Elche vs Ath Madrid",
   "league": "LaLiga",
-  "prediction": "Home Team 2H Over 0.5 Goals",
+  "prediction": "2H Home Over 0.5 Goals",
   "probability": 92,
   "result": "win",
   "score": "2-2 (FT: 3-2)"
@@ -145,7 +145,7 @@
   "date": "2025-04-22",
   "match": "PSG vs Nantes",
   "league": "Ligue 1",
-  "prediction": "Home Team 2H Over 0.5 Goals",
+  "prediction": "2H Home Over 0.5 Goals",
   "probability": 99,
   "result": "win",
   "score": "2-0 (FT: 3-0)"
@@ -154,7 +154,7 @@
   "date": "2025-04-22",
   "match": "Sociedad vs Getafe",
   "league": "LaLiga",
-  "prediction": "Home Team 2H Over 0.5 Goals",
+  "prediction": "2H Home Over 0.5 Goals",
   "probability": 24,
   "threshold": 41,
   "result": "pending",

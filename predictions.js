@@ -60,6 +60,7 @@ function displayRecentPredictions(predictions) {
     const container = document.getElementById('recent-predictions');
     const recent = predictions
         .filter(p => p.result !== 'pending')
+        .reverse() // Add this to show newest first
         .slice(0, 10); // Show last 10
     
     if (recent.length === 0) {
