@@ -12,7 +12,7 @@
         "Their previous meeting ended 3-0 to M’Gladbach, with 2 goals coming in the second half"
       ],
       "result": "win",
-      "score": "1-1 (FT: 2-2)"
+      "score": "2-2 (HT: 1-1)"
     },
     {
       "date": "2024-04-04",
@@ -26,7 +26,7 @@
         "Leverkusen have scored at least once in each of their last 5 matches, though results include 4 draws and 1 win"
       ],
       "result": "win",
-      "score": "2-3 (FT: 6-3)"
+      "score": "6-3 (HT: 2-3)"
     },
     {
   "date": "2025-04-17",
@@ -41,7 +41,7 @@
     "Currently 2-1, momentum and patterns align"
   ],
   "result": "loss",
-  "score": "2-1 (FT: 2-1)"
+  "score": "2-1 (HT: 2-1)"
   },
   {
   "date": "2025-04-17",
@@ -56,7 +56,7 @@
     "Cagliari: 20-match no clean sheet vs Inter"
   ],
   "result": "win",
-  "score": "0-0 (FT: 3-0)"
+  "score": "3-0 (HT: 0-0)"
 },
 {
   "date": "2025-04-17",
@@ -71,7 +71,7 @@
     "Model sees weak home goal signals"
   ],
   "result": "loss",
-  "score": "0-0 (FT: 1-1)"
+  "score": "1-1 (HT: 0-0)"
 },
 {
   "date": "2025-04-17",
@@ -84,7 +84,7 @@
     "Lens already trailing 0-2 at half-time",
     "Lens do score late (12 goals in 75'-90')"],
   "result": "loss",
-  "score": "0-2 (FT: 3-2)"
+  "score": "3-2 (HT: 0-2)"
 },
 {
   "date": "2025-04-21",
@@ -93,7 +93,7 @@
   "prediction": "2H Home Over 0.5 Goals",
   "probability": 87,
   "result": "loss",
-  "score": "1-0 (FT: 1-0)"
+  "score": "1-0 (HT: 1-0)"
 },
 {
   "date": "2025-04-21",
@@ -103,7 +103,7 @@
   "probability": 34,
   "threshold": 41,
   "result": "loss",
-  "score": "0-0 (FT: 1-1)"
+  "score": "1-1 (HT: 0-0)"
 },
 {
   "date": "2025-04-21",
@@ -112,7 +112,7 @@
   "prediction": "2H Home Over 0.5 Goals",
   "probability": 88,
   "result": "win",
-  "score": "1-0 (FT: 3-0)"
+  "score": "3-0 (HT: 1-0)"
 },
 {
   "date": "2025-04-21",
@@ -121,7 +121,7 @@
   "prediction": "2H Home Over 0.5 Goals",
   "probability": 74,
   "result": "win",
-  "score": "1-0 (FT: 2-1)"
+  "score": "2-1 (HT: 1-0)"
 },
 {
   "date": "2025-04-21",
@@ -130,7 +130,7 @@
   "prediction": "2H Home Over 0.5 Goals",
   "probability": 89,
   "result": "win",
-  "score": "1-1 (FT: 2-3)"
+  "score": "2-3 (HT: 1-1)"
 },
 {
   "date": "2025-04-22",
@@ -139,7 +139,7 @@
   "prediction": "2H Home Over 0.5 Goals",
   "probability": 92,
   "result": "win",
-  "score": "2-2 (FT: 3-2)"
+  "score": "3-2 (HT: 2-2)"
 },
 {
   "date": "2025-04-22",
@@ -148,7 +148,7 @@
   "prediction": "2H Home Over 0.5 Goals",
   "probability": 99,
   "result": "win",
-  "score": "2-0 (FT: 3-0)"
+  "score": "3-0 (HT: 2-0)"
 },
 {
   "date": "2025-04-22",
@@ -168,7 +168,7 @@
   "probability": 17,
   "threshold": 41,
   "result": "pending",
-  "score": "0-0 (HT)"
+  "score": "0-0"
 },
 {
   "date": "2025-04-22",
@@ -178,7 +178,7 @@
   "probability": 18,
   "threshold": 41,
   "result": "pending",
-  "score": "0-1 (HT)"
+  "score": "0-1"
 }
   ]
 }

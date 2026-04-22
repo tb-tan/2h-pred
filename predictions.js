@@ -79,12 +79,12 @@ function createPredictionCard(pred) {
         const htScore = pred.score ? `<div class="score-display">HT: ${pred.score}</div>` : '';
         resultBadge = `<span class="result-badge pending">⏳ Pending</span>${htScore}`;
     } else if (pred.result === 'win') {
-        // For completed matches, show score as-is
-        const scoreDisplay = pred.score ? `<div class="score-display">${pred.score}</div>` : '';
+        // For completed matches, show Final score with HT
+        const scoreDisplay = pred.score ? `<div class="score-display">Final: ${pred.score}</div>` : '';
         resultBadge = `<span class="result-badge win">✓ Won</span>${scoreDisplay}`;
     } else {
-        // For losses, show score as-is
-        const scoreDisplay = pred.score ? `<div class="score-display">${pred.score}</div>` : '';
+        // For losses, show Final score with HT
+        const scoreDisplay = pred.score ? `<div class="score-display">Final: ${pred.score}</div>` : '';
         resultBadge = `<span class="result-badge loss">✗ Lost</span>${scoreDisplay}`;
     }
     
