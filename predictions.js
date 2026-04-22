@@ -23,18 +23,9 @@ function updateStats(predictions) {
     // Total picks
     document.getElementById('total-picks').textContent = completed.length;
     
-    // Win rate
+    // Win rate / Accuracy
     const winRate = completed.length > 0 ? (won.length / completed.length * 100).toFixed(1) : 0;
     document.getElementById('win-rate').textContent = winRate + '%';
-    
-    // Calculate net correct (wins minus losses)
-    const netCorrect = won.length - (completed.length - won.length);
-    
-    // Net Correct
-    const netCorrectElement = document.getElementById('net-correct');
-    const netCorrectText = (netCorrect >= 0 ? '+' : '') + netCorrect;
-    netCorrectElement.textContent = netCorrectText;
-    netCorrectElement.className = 'stat-value ' + (netCorrect < 0 ? 'negative' : '');
 }
 
 // Display upcoming predictions (pending results)

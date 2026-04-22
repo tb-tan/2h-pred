@@ -365,11 +365,7 @@
         </div>
         <div class="stat-card">
             <div class="stat-value" id="win-rate">0%</div>
-            <div class="stat-label">Win Rate</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-value" id="net-correct">+0</div>
-            <div class="stat-label">Net Correct</div>
+            <div class="stat-label">Accuracy</div>
         </div>
     </div>
 
@@ -403,17 +399,17 @@
                 Example: 93% probability means the model is very confident the home team will score. 45% means it's less likely.
             </p>
             
-            <h3 style="font-family: 'Antonio', sans-serif; font-size: 1.2rem; margin-bottom: 1rem; margin-top: 2rem;">What does "Net Correct" mean?</h3>
+            <h3 style="font-family: 'Antonio', sans-serif; font-size: 1.2rem; margin-bottom: 1rem; margin-top: 2rem;">What does "Accuracy" mean?</h3>
             <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 1rem;">
-                <strong style="color: var(--text-primary);">Net Correct</strong> = Correct predictions minus incorrect predictions.
+                <strong style="color: var(--text-primary);">Accuracy</strong> = Percentage of correct predictions.
             </p>
             <ul class="analysis-points">
-                <li>10 correct, 4 incorrect = +6 net correct</li>
-                <li>15 correct, 15 incorrect = 0 net correct</li>
-                <li>8 correct, 12 incorrect = -4 net correct</li>
+                <li>10 predictions, 7 correct = 70% accuracy</li>
+                <li>20 predictions, 13 correct = 65% accuracy</li>
+                <li>50 predictions, 30 correct = 60% accuracy</li>
             </ul>
             <p style="color: var(--text-secondary); line-height: 1.8; margin-top: 1rem;">
-                A positive number means the model is performing well. Simple as that.
+                Higher accuracy means the model is performing well. Above 55% is considered good for sports predictions.
             </p>
             
             <h3 style="font-family: 'Antonio', sans-serif; font-size: 1.2rem; margin-bottom: 1rem; margin-top: 2rem;">Full transparency</h3>

@@ -19,22 +19,15 @@ Every prediction is tracked publicly with full transparency.
 ### Total Picks
 The number of predictions that have been completed (won or lost). Pending predictions don't count until the match finishes.
 
-### Win Rate
+### Accuracy
 Percentage of predictions that were correct.
 
-**Example:** 15 wins out of 20 completed picks = 75% win rate
-
-### Net Correct
-Shows how many more predictions were correct than incorrect.
-
-**Formula:** Correct predictions - Incorrect predictions
-
 **Examples:**
-- 10 correct, 4 incorrect = **+6** net correct
-- 15 correct, 15 incorrect = **0** net correct  
-- 8 correct, 12 incorrect = **-4** net correct
+- 15 correct out of 20 completed picks = **75% accuracy**
+- 8 correct out of 10 completed picks = **80% accuracy**
+- 30 correct out of 50 completed picks = **60% accuracy**
 
-A positive number means the model is performing well.
+An accuracy above 55% is considered good for sports predictions. The model aims to maintain consistent accuracy over time.
 
 ---
 
@@ -60,20 +53,20 @@ The model calculates the likelihood that the **home team scores in the second ha
 ### Example Predictions
 
 **High confidence:**
-```
+
 Leverkusen vs Wolfsburg (at HT)
 Prediction: Home Team 2H Over 0.5 Goals
 Probability: 93%
-```
+
 The model is very confident Leverkusen will score in 2H.
 
 **Lower confidence:**
-```
-Heidenheim vs M'Gladbach (at HT)  
+
+Heidenheim vs M'Gladbach (at HT)
 Prediction: Home Team 2H Over 0.5 Goals
-Probability: 45%
-```
-The model thinks it's low probability Heidenheim scores in 2H.
+Probability: 25%
+
+The model thinks there's low probability Heidenheim scores in 2H.
 
 ### When Predictions Are Posted
 
@@ -157,8 +150,32 @@ Why only home teams?
 Short-term variance happens. A bad week doesn't mean the model is broken.
 
 What matters:
-- Win rate over 30+ picks
-- Consistent profitability
+- Accuracy over 30+ picks
+- Consistent performance over time
+- Beating random chance (50%)
+
+---
+
+## Frequently Asked Questions
+
+### How accurate is the probability?
+
+The probability shows the model's confidence that the home team will score in the second half.
+
+**Example:** 73% probability means:
+- The model expects this to happen roughly 7 out of 10 times
+- It will still be wrong ~3 out of 10 times
+- Over many predictions, the probabilities should be well-calibrated
+
+**Important:** Even high-probability predictions can fail. That's the nature of probability.
+
+### What probability should I pay attention to?
+
+**70%+ = Strong signal** - Model is confident home team scores  
+**40-70% = Moderate** - Decent chance but not certain  
+**Below 40% = Weak** - Model thinks home team likely won't score
+
+The track record shows how accurate these probabilities are over time.
 
 ---
 
@@ -176,10 +193,20 @@ What matters:
 - Understand that all betting involves financial risk
 - Gambling can be addictive - seek help if needed
 
+**Check Responsible Gambling Resources:**
+
 ---
 
 ## About
 
 This model was built using data science and statistical analysis to identify patterns in second-half soccer outcomes.
 
+All predictions and results are tracked publicly with full transparency.
+
+**Last Updated:** April 2025
+
 ---
+
+**Follow for updates:**  
+[Twitter/X](https://twitter.com/footy_witch)  
+[Track Record](https://tb-tan.github.io/2h-pred/)
