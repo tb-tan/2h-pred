@@ -219,6 +219,23 @@
             min-width: 120px;
         }
 
+        .probability-badge {
+            background: linear-gradient(135deg, var(--accent-green), #00cc66);
+            color: var(--bg-primary);
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-family: 'Antonio', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-align: center;
+            min-width: 120px;
+        }
+
+        /* Add this new rule for low-probability predictions */
+        .probability-badge.low-prob {
+            background: linear-gradient(135deg, var(--accent-yellow), #cc9900);
+        }
+
         .prediction-content {
             display: grid;
             gap: 1rem;

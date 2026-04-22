@@ -89,6 +89,14 @@ function createPredictionCard(pred) {
            </ul>`
         : '';
     
+    // Show threshold if it exists and probability is below it
+    const probabilityDisplay = pred.threshold && pred.probability < pred.threshold
+        ? `<div class="probability-badge">
+             <div style="font-size: 1.5rem;">${pred.probability}%</div>
+             <div style="font-size: 0.75rem; opacity: 0.8; margin-top: 0.25rem;">threshold: ${pred.threshold}%</div>
+           </div>`
+        : `<div class="probability-badge">${pred.probability}%</div>`;
+    
     return `
         <div class="prediction-card">
             <div class="prediction-header">
@@ -96,7 +104,7 @@ function createPredictionCard(pred) {
                     <h3>${pred.match}</h3>
                     <div class="match-meta">${pred.date} • ${pred.league}</div>
                 </div>
-                <div class="probability-badge">${pred.probability}%</div>
+                ${probabilityDisplay}
             </div>
             <div class="prediction-content">
                 <div class="prediction-type">${pred.prediction}</div>
