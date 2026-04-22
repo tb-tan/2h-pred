@@ -23,7 +23,7 @@ function updateStats(predictions) {
     // Total picks
     document.getElementById('total-picks').textContent = completed.length;
     
-    // Win rate / Accuracy
+    // Accuracy (was Win Rate)
     const winRate = completed.length > 0 ? (won.length / completed.length * 100).toFixed(1) : 0;
     document.getElementById('win-rate').textContent = winRate + '%';
 }
@@ -31,7 +31,9 @@ function updateStats(predictions) {
 // Display upcoming predictions (pending results)
 function displayUpcomingPredictions(predictions) {
     const container = document.getElementById('upcoming-predictions');
-    const upcoming = predictions.filter(p => p.result === 'pending');
+    const upcoming = predictions
+        .filter(p => p.result === 'pending')
+        .reverse(); // Show newest first
     
     if (upcoming.length === 0) {
         container.innerHTML = `
@@ -51,7 +53,7 @@ function displayRecentPredictions(predictions) {
     const container = document.getElementById('recent-predictions');
     const recent = predictions
         .filter(p => p.result !== 'pending')
-        .reverse() // Add this to show newest first
+        .reverse() // Show newest first
         .slice(0, 10); // Show last 10
     
     if (recent.length === 0) {
@@ -69,11 +71,22 @@ function displayRecentPredictions(predictions) {
 
 // Create HTML for a prediction card
 function createPredictionCard(pred) {
-    const resultBadge = pred.result === 'pending' 
-        ? '<span class="result-badge pending">⏳ Pending</span>'
-        : pred.result === 'win'
-        ? `<span class="result-badge win">✓ Won</span>${pred.score ? `<div class="score-display">Final: ${pred.score}</div>` : ''}`
-        : `<span class="result-badge loss">✗ Lost</span>${pred.score ? `<div class="score-display">Final: ${pred.score}</div>` : ''}`;
+    // Handle result badge and score display
+    let resultBadge = '';
+    
+    if (pred.result === 'pending') {
+        // For pending matches, show HT score
+        const htScore = pred.score ? `<div class="score-display">HT: ${pred.score}</div>` : '';
+        resultBadge = `<span class="result-badge pending">⏳ Pending</span>${htScore}`;
+    } else if (pred.result === 'win') {
+        // For completed matches, show score as-is
+        const scoreDisplay = pred.score ? `<div class="score-display">${pred.score}</div>` : '';
+        resultBadge = `<span class="result-badge win">✓ Won</span>${scoreDisplay}`;
+    } else {
+        // For losses, show score as-is
+        const scoreDisplay = pred.score ? `<div class="score-display">${pred.score}</div>` : '';
+        resultBadge = `<span class="result-badge loss">✗ Lost</span>${scoreDisplay}`;
+    }
     
     const analysisHTML = pred.analysis && pred.analysis.length > 0
         ? `<ul class="analysis-points">
@@ -83,7 +96,7 @@ function createPredictionCard(pred) {
     
     // Show threshold if it exists and probability is below it
     const probabilityDisplay = pred.threshold && pred.probability < pred.threshold
-        ? `<div class="probability-badge">
+        ? `<div class="probability-badge low-prob">
              <div style="font-size: 1.5rem;">${pred.probability}%</div>
              <div style="font-size: 0.75rem; opacity: 0.8; margin-top: 0.25rem;">threshold: ${pred.threshold}%</div>
            </div>`
