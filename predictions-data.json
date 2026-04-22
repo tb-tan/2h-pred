@@ -131,6 +131,34 @@
   "probability": 89,
   "result": "win",
   "score": "1-1 (FT: 2-3)"
+},
+{
+  "date": "2025-04-22",
+  "match": "Elche vs Ath Madrid",
+  "league": "LaLiga",
+  "prediction": "Home Team 2H Over 0.5 Goals",
+  "probability": 92,
+  "result": "win",
+  "score": "2-2 (FT: 3-2)"
+},
+{
+  "date": "2025-04-22",
+  "match": "PSG vs Nantes",
+  "league": "Ligue 1",
+  "prediction": "Home Team 2H Over 0.5 Goals",
+  "probability": 99,
+  "result": "win",
+  "score": "2-0 (FT: 3-0)"
+},
+{
+  "date": "2025-04-22",
+  "match": "Sociedad vs Getafe",
+  "league": "LaLiga",
+  "prediction": "Home Team 2H Over 0.5 Goals",
+  "probability": 24,
+  "threshold": 41,
+  "result": "pending",
+  "score": "0-1 (HT)"
 }
   ]
 }
