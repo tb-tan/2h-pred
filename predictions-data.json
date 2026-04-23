@@ -158,7 +158,7 @@
   "probability": 24,
   "threshold": 41,
   "result": "win",
-  "score": "0-1 (FT: 0-1)"
+  "score": "0-1 (HT: 0-1)"
 },
 {
   "date": "2025-04-22",
@@ -167,8 +167,8 @@
   "prediction": "2H Home Over 0.5 Goals",
   "probability": 17,
   "threshold": 41,
-  "result": "pending",
-  "score": "0-0"
+  "result": "loss",
+  "score": "2-2 (HT: 0-0)"
 },
 {
   "date": "2025-04-22",
@@ -177,8 +177,17 @@
   "prediction": "2H Home Over 0.5 Goals",
   "probability": 18,
   "threshold": 41,
-  "result": "pending",
-  "score": "0-1"
+  "result": "win",
+  "score": "0-1 (HT: 0-1)"
+},
+{
+  "date": "2025-04-22",
+  "match": "Barcelona vs Celta",
+  "league": "LaLiga",
+  "prediction": "2H Home Over 0.5 Goals",
+  "probability": 89,
+  "result": "loss",
+  "score": "1-0 (HT: 1-0)"
 }
   ]
 }
